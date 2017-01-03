@@ -31,7 +31,7 @@ class PetQueue {
 
     }
 
-    public }
+}
 
 public class Solution {
 

@@ -18,7 +18,7 @@ public class CloseNumber {
         if ((n & 1) == 1) {
 
         }
-        //return 0;
+        return 0;
     }
 
     private int getNext(int x) {

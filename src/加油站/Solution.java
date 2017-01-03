@@ -8,6 +8,6 @@ public class Solution {
 
     public int canCompleteCircuit(int[] gas, int[] cost) {
         // write your code here
-
+        return 0;
     }
 }

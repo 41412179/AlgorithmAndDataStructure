@@ -40,7 +40,7 @@ public class Solution {
             head.next = null;
             head = next;
         }
-
+        return null;
 
     }
 }
