@@ -1,20 +1,23 @@
-package 多数组中位数;
+package 链表的回文结构;
 
 import java.io.BufferedInputStream;
 import java.util.Scanner;
 
+/**
+ * Created by h on 16-12-28.
+ */
+class ListNode {
+    int val;
+    ListNode next = null;
+
+    ListNode(int val) {
+        this.val = val;
+    }
+}
 
 public class Main {
-    public int getUpMedian(int[] arr1, int[] arr2) {
-        int arr1Left = 0;
-        int arr1Right = arr1.length;
-        int arr2Left = 0;
-        int arr2Right = arr2.length;
+    public boolean chkPalindrome(ListNode A) {
 
-
-        while (true) {
-
-        }
     }
 
     public static void main(String[] args) {

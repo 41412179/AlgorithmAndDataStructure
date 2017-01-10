@@ -1,26 +1,20 @@
-package 多数组中位数;
+package 进制转换;
 
 import java.io.BufferedInputStream;
+import java.io.InterruptedIOException;
 import java.util.Scanner;
 
-
+/**
+ * Created by h on 16-12-28.
+ */
 public class Main {
-    public int getUpMedian(int[] arr1, int[] arr2) {
-        int arr1Left = 0;
-        int arr1Right = arr1.length;
-        int arr2Left = 0;
-        int arr2Right = arr2.length;
-
-
-        while (true) {
-
-        }
-    }
 
     public static void main(String[] args) {
         Scanner in = new Scanner(new BufferedInputStream(System.in));
         while (in.hasNext()) {
-
+            int n = in.nextInt();
+            int m = in.nextInt();
+            System.out.println(Integer.toString(n, m).toUpperCase());
         }
         in.close();
     }
