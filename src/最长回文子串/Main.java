@@ -33,9 +33,10 @@ public class Main {
             } else {
                 int j = 2 * pos - i;
                 int val = rl[j];
-                if (j + val)
+                //if (j + val)
             }
         }
+        return 0;
     }
 
     public static void main(String[] args) {
