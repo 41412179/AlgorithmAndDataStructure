@@ -1,20 +1,8 @@
 package java并发学习.HashMap引起死循环;
 
-/**
- * Alipay.com Inc.
- * Copyright (c) 2004-2015 All Rights Reserved.
- */
-
-
 import java.util.HashMap;
 import java.util.UUID;
 
-/**
- * 并发put
- *
- * @author tengfei.fangtf
- * @version $Id: Snippet.java, v 0.1 2015-7-31 下午11:53:55 tengfei.fangtf Exp $
- */
 public class ConcurrentPutHashMap {
 
     public static void main(String[] args) throws InterruptedException {
@@ -35,5 +23,4 @@ public class ConcurrentPutHashMap {
         t.start();
         t.join();
     }
-
 }
